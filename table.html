@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      th,
+      td {
+        padding: 1rem;
+      }
+
+      tr:nth-child(even) {
+        background-color: green;
+        color: white;
+      }
+
+      tr:nth-child(odd) {
+        background-color: red;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="./index.html">Go Back</a>
+
+    <table
+      width="100%"
+      border="1"
+      style="text-align: center; border-collapse: collapse"
+    >
+      <tr>
+        <th>S.N</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th colspan="2">Phone</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Bishal</td>
+        <td>Chitwan</td>
+        <td>984762232455</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>John</td>
+        <td rowspan="2">US</td>
+        <td>+1515894284</td>
+        <td>+1515894284</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>John</td>
+        <td>+1515894284</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Bishal</td>
+        <td>Chitwan</td>
+        <td>984762232455</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Bishal</td>
+        <td>Chitwan</td>
+        <td>984762232455</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Bishal</td>
+        <td>Chitwan</td>
+        <td>984762232455</td>
+      </tr>
+    </table>
+  </body>
+</html>
