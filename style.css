@@ -9,7 +9,8 @@
   width: 100%;
   height: 80vh;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -17,8 +18,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
-    /* margin-top: -10rem;
-    padding-left: 18rem; */
+    width: 580px;
+    height: 226px;
 }
 
 .main {
@@ -26,7 +27,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-      margin: 2rem;
 }
 
 .form {
@@ -37,8 +37,7 @@
   align-items: center;
   background-color: white;
   border: 1px solid white;
-  margin: 2rem;
-  margin-right: 6rem;
+  margin-bottom: 2rem;
   border-radius: 8px;
   box-shadow: 13px 14px 15px -3px rgba(0,0,0,0.1),-11px -10px 15px -3px rgba(0,0,0,0.1);
 }
@@ -99,4 +98,18 @@ input {
   width: 500px;
   margin-left: 2rem;
   margin-top: -1rem;
+}
+
+@media all and (max-width: 978px) {
+  .logo{
+    margin-top: -3rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text{
+    width: 50vh;
+    text-align: center;
+    font-size: 28px;
+  }
 }
