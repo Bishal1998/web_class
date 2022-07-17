@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title{
+    margin: auto;
+}
+
+.bg{
+    margin-top: 10px;
+    background-color: rgb(103, 97, 97);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    font-size: 45px;
+    top: -3px;
+    left: 0.4rem;
+}
+
+.bg:hover{
+    background-color: rgb(163, 158, 158);
+}
