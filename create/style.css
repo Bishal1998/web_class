@@ -6,46 +6,40 @@
 .container {
     background-color: black;
     width: 500px;
-    height: 500px;
+    height: 428px;
     margin: auto;
     margin-top: 200px;
     border-radius: 8px;
     opacity: 0.8;
+    color: white;
 }
 
 .top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
     height: 50px;
     width: 90%;
+    margin: auto;
+}
+
+.title{
     margin: auto;
     font-size: 20px;
     font-weight: bold;
 }
 
-.title{
-    margin: auto;
-}
-
-.bg{
+.bi{
     margin-top: 10px;
-    background-color: rgb(103, 97, 97);
-    border-radius: 50%;
-    height: 35px;
-    width: 35px;
     cursor: pointer;
-    position: relative;
 }
 
-.close{
-    position: absolute;
-    font-size: 45px;
-    top: -3px;
-    left: 0.4rem;
-}
-
-.bg:hover{
+.bi:hover{
     background-color: rgb(163, 158, 158);
+    border-radius: 50%;
+}
+
+hr{
+    margin-top: 0.3rem;
+    opacity: 0.1;
 }
