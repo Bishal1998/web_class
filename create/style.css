@@ -12,6 +12,7 @@
     border-radius: 8px;
     opacity: 0.8;
     color: white;
+    overflow: hidden;
 }
 
 .top{
@@ -29,12 +30,12 @@
     font-weight: bold;
 }
 
-.bi{
+.icon{
     margin-top: 10px;
     cursor: pointer;
 }
 
-.bi:hover{
+.icon:hover{
     background-color: rgb(163, 158, 158);
     border-radius: 50%;
 }
@@ -42,4 +43,50 @@
 hr{
     margin-top: 0.3rem;
     opacity: 0.1;
+}
+
+.profile{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 1rem;
+}
+
+.img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.privacy{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.privacy-name{
+    font-weight: bold;
+}
+
+.privacy-public{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background-color: rgb(31, 30, 30);
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input{
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    margin: 0.5rem;
+    /* height: 150px; */
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 24px;
+    resize: none;
 }
